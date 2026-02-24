@@ -26,7 +26,7 @@ class CartScreen extends StatelessWidget {
             padding: const EdgeInsets.symmetric(vertical: 16),
             backgroundColor:AppColors.mainColor,
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(30),
+              borderRadius: BorderRadius.circular(16),
             ),
           ),
           onPressed: () {},

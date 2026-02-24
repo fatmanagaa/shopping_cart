@@ -39,7 +39,10 @@ class _HomeScreenState extends State<HomeScreen> {
               builder: (context, provider, _) {
                 return Stack(
                   children: [
-                  InkWell(child: Image.asset(AppAssets.cart),
+                  InkWell(child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Image.asset(AppAssets.cart),
+                  ),
                       onTap: () {
                       Navigator.pushNamed(context, AppRoutes.cartScreen);
                     },
