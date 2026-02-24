@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shopping_cart/core/app_assets.dart';
+import '../core/app_colors.dart';
 import '../core/app_routes.dart';
 import '../providers/product_provider.dart';
 import '../model/product_response.dart';
@@ -158,7 +159,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: IconButton(
                         icon: const Icon(
                           Icons.add_shopping_cart,
-                          color: Colors.blue,
+                            color: AppColors.mainColor
                         ),
                         onPressed: () {
                           provider.addToCart(product);
