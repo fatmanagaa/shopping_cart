@@ -22,18 +22,5 @@ class AppTheme {
     ),
   );
 
-  static final ThemeData darkTheme = ThemeData(
-    primaryColor: AppColors.blackColor,
-    splashColor: AppColors.whiteColor,
-    scaffoldBackgroundColor: AppColors.blackColor,
-    appBarTheme: const AppBarTheme(
-      centerTitle: true,
-      backgroundColor: AppColors.blackColor,
-      iconTheme: IconThemeData(color: AppColors.whiteColor),
-    ),
-    textTheme: TextTheme(
-      labelLarge: AppStyles.bold16White,
-      labelMedium: AppStyles.medium14White,
-    ),
-  );
+
 }
